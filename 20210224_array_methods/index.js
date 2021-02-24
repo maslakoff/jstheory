@@ -7,17 +7,6 @@ const flatArray = [
     'November', 'December'
 ];
 
-const arrayOfObjects = [
-    { id: 16, name: 'maslakoff', repo: 'https://github.com/maslakoff/maslakoff' },
-    { id: 36, name: 'A-Dulevich', repo: 'https://github.com/A-Dulevich/cv' },
-    { id: 43, name: 'dimaurbanovich', repo: 'https://github.com/dimaurbanovich/cv' },
-    { id: 78, name: 'valevka', repo: 'https://github.com/valevka/cv' },
-    { id: 79, name: 'Ivantsov-aa', repo: 'https://github.com/Ivantsov-aa/cv' },
-    { id: 20, name: 'Elizaveta-Battalova', repo: 'https://github.com/Elizaveta-Battalova/cv' },
-    { id: 19, name: 'Darl93', repo: 'https://github.com/Darl93/cv' },
-    { id: 11, name: 'rominazz', repo: 'https://github.com/rominazz/cv' },
-]; 
-
 // // push, 
 // const newArr = flatArray.push("All year");
 // console.log(flatArray, newArr);
