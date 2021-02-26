@@ -25,6 +25,8 @@ const flatArray = [
 // console.log(flatArraySeasons);
 
 // reverse,  // A-Dulevich
+const reversed = flatArray.reverse();
+ console.log("reversed:", reversed); 
 // forEach,  // dimaurbanovich
 // map,      // valevka
 // filter,   // Ivantsov-aa
@@ -33,6 +35,9 @@ const flatArray = [
 // includes, // rominazz
 
 // slice,    // A-Dulevich
+console.log( flatArray.slice(3,5));
+console.log( flatArray.slice(1));
+
 // splice,   // dimaurbanovich
 // reduce,   // valevka
 // lastIndexOf,  // Ivantsov-aa
