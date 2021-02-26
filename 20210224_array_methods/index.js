@@ -26,17 +26,21 @@ const flatArray = [
 // console.log(flatArraySeasons);
 
 // reverse,  // A-Dulevich
+const reversed = flatArray.reverse();
+ console.log("reversed:", reversed); 
 // // forEach,  // dimaurbanovich
 flatArray.forEach( ( month ) => { // Проходит по каждому элементу массива и выпоолняет заданную функцию для элемента
     console.log(month);
 });
-
-// // map,      // valevka
+// map,      // valevka
 // filter,   // Ivantsov-aa
 // sort,     // Elizaveta-Battalova
 // indexOf,  // Darl93
 // includes, // rominazz
 // slice,    // A-Dulevich
+console.log( flatArray.slice(3,5));
+console.log( flatArray.slice(1));
+
 // splice,   // dimaurbanovich
 flatArray.splice(2, 3, 'SPRING'); // Удаляет 3 элемента начиная с индекса 2 и вставляет 'SPRING'
 console.log(flatArray);
