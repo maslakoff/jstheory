@@ -3,6 +3,10 @@ let str = " Welcome To The Real World | The Matrix (1999)";
 
 //charAt // A-Dulevich
 //concat // dimaurbanovich
+// const str2 = ' - the film with Keanu Reeves in the lead role.'; // объединяет строки
+// const newStr = str.concat(str2);
+// console.log(newStr);
+
 //indexOf // valevka
 //includes // Ivantsov-aa
 //replace // Elizaveta-Battalova
@@ -11,6 +15,10 @@ let str = " Welcome To The Real World | The Matrix (1999)";
 
 //trim // A-Dulevich
 //split // dimaurbanovich
+const newStr = str.split( '|' ); // находит заданный разделяющий элемент в строке и возвращает массив из разделенных строк
+console.log(newStr);
+
+
 //lastIndexOf // valevka
 //slice // Ivantsov-aa
 //substring // Elizaveta-Battalova
