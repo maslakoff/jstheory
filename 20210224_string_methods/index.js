@@ -2,6 +2,7 @@
 let str = " Welcome To The Real World | The Matrix (1999)";
 
 //charAt // A-Dulevich
+console.log("Символ элемента под индексом 4 =", str.charAt(4));
 //concat // dimaurbanovich
 //indexOf // valevka
 //includes // Ivantsov-aa
@@ -10,6 +11,7 @@ let str = " Welcome To The Real World | The Matrix (1999)";
 //toLowerCase // rominazz
 
 //trim // A-Dulevich
+console.log(str.trim());
 //split // dimaurbanovich
 //lastIndexOf // valevka
 //slice // Ivantsov-aa
