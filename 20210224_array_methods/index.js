@@ -34,6 +34,10 @@ flatArray.forEach( ( month ) => { // Проходит по каждому эле
 });
 // map,      // valevka
 // filter,   // Ivantsov-aa
+function minMonth(words) {
+    return words.length < 6;
+}
+console.log(flatArray.filter(minMonth));
 // sort,     // Elizaveta-Battalova
 // indexOf,  // Darl93
 // includes, // rominazz
@@ -47,6 +51,7 @@ console.log(flatArray);
 
 // reduce,   // valevka
 // lastIndexOf,  // Ivantsov-aa
+console.log(flatArray[0].lastIndexOf('a'));
 // find,     // Elizaveta-Battalova
 // findIndex // Darl93
 // pop,      // rominazz
