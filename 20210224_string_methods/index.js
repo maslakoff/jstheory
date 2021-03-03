@@ -16,3 +16,10 @@ let str = " Welcome To The Real World | The Matrix (1999)";
 //substring // Elizaveta-Battalova
 //substr // Darl93
 //startsWith // rominazz
+
+function foo(a) {   
+    var b= 40;
+    console.log(a)
+}
+
+foo(3)
